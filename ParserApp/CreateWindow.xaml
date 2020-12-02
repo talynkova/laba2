@@ -1,0 +1,15 @@
+﻿<Window x:Class="ParserApp.CreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParserApp"
+        mc:Ignorable="d"
+        Title="CreateWindow" Height="450" Width="800" Background="Bisque">
+    <Grid>
+        <Button x:Name="Yes" Content="ДА"   Margin="37,232,0,0"  Click="Yes_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Height="82" BorderThickness="0" FontSize="40"  />
+        <Button x:Name="No" Content="НЕТ"  Margin="0,232,36,0"  Click="No_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="236" Height="82" BorderThickness="0" FontSize="40"  />
+        <TextBox HorizontalAlignment="Left" Height="78" TextWrapping="Wrap" Text="&quot;К сожалению, файла с локальной базой не существует. Скачать базу данных?&quot;" VerticalAlignment="Top" Width="476" Margin="162,75,0,0" FontSize="25" Background="Bisque" BorderThickness="0"/>
+
+    </Grid>
+</Window>
